@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -33,14 +34,23 @@ nav ul li a {
 
 main {
     padding: 1rem;
+    text-align: center;
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #007BFF; /* Zmenené zo zelenej na modrú */
     color: #fff;
     text-align: center;
     padding: 0.5rem;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.time {
+    position: absolute;
+    top: 10px;   /* Umiestni čas 10px od vrchu */
+    right: 10px; /* Umiestni čas 10px od pravej strany */
+    font-size: 18px; /* Nastav veľkosť písma podľa potreby */
+    font-weight: bold;
 }
