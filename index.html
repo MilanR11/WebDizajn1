@@ -14,7 +14,7 @@
             <ul>
                 <li><a href="index.html">Domov</a></li>
                 <li><a href="historia.html">História</a></li>
-                <li><a href="kultura.html">Kultúra</a></li>
+                <li><a href="atrakcie.html">Atrakcie</a></li>
                 <li><a href="priroda.html">Príroda</a></li>
             </ul>
         </nav>
@@ -24,7 +24,7 @@
     <main>
         <section>
             <h2>O Oravskej Lesnej</h2>
-            <p>Vitajte na stránkach venovaných obci Oravskej Lesnej. Tu sa môžete dozvedieť viac o jej histórii, kultúre a prírode.</p>
+            <p>Vitajte na stránkach venovaných obci Oravskej Lesnej. Tu sa môžete dozvedieť viac o jej histórii, atrakciách a prírode.</p>
 			<br>
             <!-- Obrázok obce -->
             <img src="obec_obrazok.png" alt="Obec Oravská Lesná" class="responsive-image">
@@ -35,22 +35,6 @@
     <footer>
         <p>&copy; 2024 Milan Rabčan</p>
     </footer>
-	<script>
-    function updateTime() {
-        var now = new Date(); // Získaj aktuálny dátum a čas
-        var hours = now.getHours().toString().padStart(2, '0'); // Získaj hodiny
-        var minutes = now.getMinutes().toString().padStart(2, '0'); // Získaj minúty
-        var seconds = now.getSeconds().toString().padStart(2, '0'); // Získaj sekundy
-
-        // Zobraz aktuálny čas v požadovanom formáte
-        document.getElementById("clock").innerText = hours + ":" + minutes + ":" + seconds;
-    }
-
-    // Aktualizuj čas každú sekundu
-    setInterval(updateTime, 1000);
-
-    // Zavolaj funkciu pri načítaní stránky
-    updateTime();
-</script>
+	<script src="clock.js"></script>
 </body>
 </html>
