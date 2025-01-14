@@ -54,3 +54,10 @@ footer {
     font-size: 18px; /* Nastav veľkosť písma podľa potreby */
     font-weight: bold;
 }
+
+
+.responsive-image {
+    width: 100%;  /* Nastaví obrázok na 100% šírky rodičovského kontajnera */
+    height: auto; /* Udržuje pôvodný pomer strán obrázka */
+    max-width: 100%; /* Zabezpečuje, že obrázok neprekročí šírku kontajnera */
+}
